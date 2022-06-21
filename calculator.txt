@@ -6,6 +6,7 @@ public class DoWhileSwitch {
 		Scanner s=new Scanner(System.in);
 		int n1,n2;
 		int ans=1,c=0;
+		
 		char choice;
 		
 		do
@@ -43,9 +44,11 @@ public class DoWhileSwitch {
 					System.out.println("Division of two numbers is: "+c);
 				}
 				break;
+				
 			case 'e':
 				System.exit(0);
 				break;
+				
 			default:
 				System.out.println("Wrong Choice");
 			}
